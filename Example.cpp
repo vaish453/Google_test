@@ -108,7 +108,7 @@ int mirror_control()
              } 
             else if (control_Mirror == RIGHT)
              {
-                printf("Mirror moved RIGHT\n");
+                printf("Mirror moved RIGHT successfully \n");
              }
         }
     } 

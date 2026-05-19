@@ -231,12 +231,21 @@ int mirror_control()
             else if (control_Mirror == LEFT_CONTROL)  // ✅ Fixed: was LEFT
             {
                 printf("Mirror moved LEFT\n");
+
             }
             else if (control_Mirror == RIGHT_CONTROL)  // ✅ Fixed: was RIGHT
             {
                 printf("Mirror moved RIGHT\n");
             }
+
+              
+            else if (control_Mirror == RIGHT)
+             {
+                printf("Mirror moved RIGHT success \n");
+             }
+
         }
+        
     }
     else
     {
@@ -245,4 +254,3 @@ int mirror_control()
 
     return 0;
 }
- 

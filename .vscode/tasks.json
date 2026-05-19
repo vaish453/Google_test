@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Example",
+            "type": "shell",
+            "command": "C:\\Users\\jvais\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "${workspaceFolder}\\Example.cpp",
+                "-o",
+                "${workspaceFolder}\\output\\Example.exe"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
